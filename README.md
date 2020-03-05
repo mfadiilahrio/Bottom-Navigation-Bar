@@ -1,6 +1,8 @@
 # Bottom-Navigation-Bar
 
-This is sample app for bottom navigation bar using react native
+
+
+This is sample app for Bottom Navigation Bar using React Native
 
 # How to install
 
