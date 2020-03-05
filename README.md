@@ -1,6 +1,6 @@
 # Bottom-Navigation-Bar
 
-This is sampe app for bottom navigation bar using react native
+This is sample app for bottom navigation bar using react native
 
 # How to install
 
