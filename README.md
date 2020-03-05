@@ -12,6 +12,6 @@ This is sample app for Bottom Navigation Bar using React Native
 
 # Screenshot
 
-![alt text](https://raw.githubusercontent.com/mfadiilahrio/Bottom-Navigation-Bar/master/assets/images/page1.png)
-![alt text](https://raw.githubusercontent.com/mfadiilahrio/Bottom-Navigation-Bar/master/assets/images/page2.png)
-![alt text](https://raw.githubusercontent.com/mfadiilahrio/Bottom-Navigation-Bar/master/assets/images/page3.png)
+![alt text](https://raw.githubusercontent.com/mfadiilahrio/Bottom-Navigation-Bar/master/assets/images/page1.png | width=100)
+![alt text](https://raw.githubusercontent.com/mfadiilahrio/Bottom-Navigation-Bar/master/assets/images/page2.png | width=100)
+![alt text](https://raw.githubusercontent.com/mfadiilahrio/Bottom-Navigation-Bar/master/assets/images/page3.png| width=100)
