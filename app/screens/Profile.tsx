@@ -1,14 +1,19 @@
 import * as React from 'react';
-import {Button, Text, View} from 'react-native';
+import {Text, View, StyleSheet, Button} from 'react-native';
 
-export function Profile({ navigation }) {
+export default function Profile({navigation}) {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Feed screen</Text>
-      <Button
-        title="Go to feed"
-        onPress={() => navigation.navigate('Feed')}
-      />
+    <View style={styles.container}>
+      <Text>Profile</Text>
+      <Button title="Feed" onPress={() => {navigation.navigate('Feed')}} />
     </View>
-  );
+  )
 }
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center'
+    }
+})

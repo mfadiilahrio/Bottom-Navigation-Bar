@@ -1,20 +1,19 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
+import React from 'react';
+import RouteStack from './router';
+import LoginScreen from './screens/LoginScreen';
 
-import React, { Component } from 'react';
-// import RootStack from './screens/Login';
-import RootStack from './router';
+let isLogin = true;
+let content: JSX.Element;
 
-type Props = {};
-export default class App extends Component<Props> {
+export default class extends React.Component {
     render() {
+        if (!isLogin) {
+            content = <LoginScreen />
+        } else {
+            content = <RouteStack />
+        }
         return (
-            <RootStack />
+            content
         );
     }
 }

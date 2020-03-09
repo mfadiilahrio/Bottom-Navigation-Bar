@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import { Colors } from 'react-native-paper';
 
-export default class Login extends React.Component {
+export default class LoginScreen extends React.Component {
   state={
     email:"",
     password:""
@@ -29,7 +29,7 @@ export default class Login extends React.Component {
         <TouchableOpacity>
           <Text style={styles.forgot}>Forgot Password?</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.loginBtn}>
+        <TouchableOpacity style={styles.loginBtn} onPress={() => {}}>
           <Text style={styles.loginText}>LOGIN</Text>
         </TouchableOpacity>
       </View>
