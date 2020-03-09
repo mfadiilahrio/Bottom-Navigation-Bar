@@ -13,8 +13,8 @@ const theme = {
   colors: {
     ...DefaultTheme.colors,
     roundness: 2,
-    primary: 'tomato',
-    accent: 'yellow',
+    primary: 'chocolate',
+    accent: 'white',
   },
 };
 
